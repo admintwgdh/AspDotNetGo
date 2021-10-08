@@ -1,0 +1,14 @@
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\bin\Debug\netcoreapp3.1\AspDotNetGo.Controllers.deps.json
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\bin\Debug\netcoreapp3.1\AspDotNetGo.Controllers.dll
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\bin\Debug\netcoreapp3.1\AspDotNetGo.Controllers.pdb
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\obj\Debug\netcoreapp3.1\AspDotNetGo.Controllers.csproj.AssemblyReference.cache
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\obj\Debug\netcoreapp3.1\AspDotNetGo.Controllers.AssemblyInfoInputs.cache
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\obj\Debug\netcoreapp3.1\AspDotNetGo.Controllers.AssemblyInfo.cs
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\obj\Debug\netcoreapp3.1\AspDotNetGo.Controllers.csproj.CoreCompileInputs.cache
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\obj\Debug\netcoreapp3.1\AspDotNetGo.Controllers.dll
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\obj\Debug\netcoreapp3.1\AspDotNetGo.Controllers.pdb
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\obj\Debug\netcoreapp3.1\AspDotNetGo.Controllers.csproj.CopyComplete
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\bin\Debug\netcoreapp3.1\AspDotNetGo.Common.dll
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\bin\Debug\netcoreapp3.1\AspDotNetGo.Common.pdb
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\bin\Debug\netcoreapp3.1\AspDotNetGo.Models.dll
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Controller\bin\Debug\netcoreapp3.1\AspDotNetGo.Models.pdb
