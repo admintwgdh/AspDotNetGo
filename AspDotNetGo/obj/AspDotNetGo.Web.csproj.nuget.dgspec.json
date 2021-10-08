@@ -1,0 +1,614 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo\\AspDotNetGo.Web.csproj": {}
+  },
+  "projects": {
+    "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Common\\AspDotNetGo.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Common\\AspDotNetGo.Common.csproj",
+        "projectName": "AspDotNetGo.Common",
+        "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Common\\AspDotNetGo.Common.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\RDM\\PDMCODE\\nupkg": {},
+          "http://192.168.103.113:6680/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Models\\AspDotNetGo.Models.csproj": {
+                "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Models\\AspDotNetGo.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FreeSql.Provider.MySql": {
+              "target": "Package",
+              "version": "[2.6.100, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Controller\\AspDotNetGo.Controllers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Controller\\AspDotNetGo.Controllers.csproj",
+        "projectName": "AspDotNetGo.Controllers",
+        "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Controller\\AspDotNetGo.Controllers.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Controller\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\RDM\\PDMCODE\\nupkg": {},
+          "http://192.168.103.113:6680/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Common\\AspDotNetGo.Common.csproj": {
+                "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Common\\AspDotNetGo.Common.csproj"
+              },
+              "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Models\\AspDotNetGo.Models.csproj": {
+                "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Models\\AspDotNetGo.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FreeSql.Provider.MySql": {
+              "target": "Package",
+              "version": "[2.6.100, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IRepository\\AspDotNetGo.IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IRepository\\AspDotNetGo.IRepository.csproj",
+        "projectName": "AspDotNetGo.IRepository",
+        "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IRepository\\AspDotNetGo.IRepository.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\RDM\\PDMCODE\\nupkg": {},
+          "http://192.168.103.113:6680/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FreeSql.Provider.MySql": {
+              "target": "Package",
+              "version": "[2.6.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IService\\AspDotNetGo.IService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IService\\AspDotNetGo.IService.csproj",
+        "projectName": "AspDotNetGo.IService",
+        "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IService\\AspDotNetGo.IService.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\RDM\\PDMCODE\\nupkg": {},
+          "http://192.168.103.113:6680/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FreeSql.Provider.MySql": {
+              "target": "Package",
+              "version": "[2.6.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Models\\AspDotNetGo.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Models\\AspDotNetGo.Models.csproj",
+        "projectName": "AspDotNetGo.Models",
+        "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Models\\AspDotNetGo.Models.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\RDM\\PDMCODE\\nupkg": {},
+          "http://192.168.103.113:6680/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FreeSql": {
+              "target": "Package",
+              "version": "[2.6.100, )"
+            },
+            "FreeSql.Provider.MySql": {
+              "target": "Package",
+              "version": "[2.6.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Repository\\AspDotNetGo.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Repository\\AspDotNetGo.Repository.csproj",
+        "projectName": "AspDotNetGo.Repository",
+        "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Repository\\AspDotNetGo.Repository.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\RDM\\PDMCODE\\nupkg": {},
+          "http://192.168.103.113:6680/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FreeSql.Provider.MySql": {
+              "target": "Package",
+              "version": "[2.6.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Service\\AspDotNetGo.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Service\\AspDotNetGo.Service.csproj",
+        "projectName": "AspDotNetGo.Service",
+        "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Service\\AspDotNetGo.Service.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\RDM\\PDMCODE\\nupkg": {},
+          "http://192.168.103.113:6680/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FreeSql.Provider.MySql": {
+              "target": "Package",
+              "version": "[2.6.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo\\AspDotNetGo.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo\\AspDotNetGo.Web.csproj",
+        "projectName": "AspDotNetGo.Web",
+        "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo\\AspDotNetGo.Web.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\RDM\\PDMCODE\\nupkg": {},
+          "http://192.168.103.113:6680/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Common\\AspDotNetGo.Common.csproj": {
+                "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Common\\AspDotNetGo.Common.csproj"
+              },
+              "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Controller\\AspDotNetGo.Controllers.csproj": {
+                "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Controller\\AspDotNetGo.Controllers.csproj"
+              },
+              "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IRepository\\AspDotNetGo.IRepository.csproj": {
+                "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IRepository\\AspDotNetGo.IRepository.csproj"
+              },
+              "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IService\\AspDotNetGo.IService.csproj": {
+                "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.IService\\AspDotNetGo.IService.csproj"
+              },
+              "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Models\\AspDotNetGo.Models.csproj": {
+                "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Models\\AspDotNetGo.Models.csproj"
+              },
+              "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Repository\\AspDotNetGo.Repository.csproj": {
+                "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Repository\\AspDotNetGo.Repository.csproj"
+              },
+              "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Service\\AspDotNetGo.Service.csproj": {
+                "projectPath": "E:\\OSC\\source\\repos\\AspDotNetGo\\AspDotNetGo.Service\\AspDotNetGo.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FreeSql": {
+              "target": "Package",
+              "version": "[2.6.100, )"
+            },
+            "FreeSql.Provider.MySql": {
+              "target": "Package",
+              "version": "[2.6.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.18, 3.1.18]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

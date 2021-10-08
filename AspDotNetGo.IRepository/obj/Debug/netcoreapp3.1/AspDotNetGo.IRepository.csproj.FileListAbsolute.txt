@@ -1,0 +1,9 @@
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.IRepository\bin\Debug\netcoreapp3.1\AspDotNetGo.IRepository.deps.json
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.IRepository\bin\Debug\netcoreapp3.1\AspDotNetGo.IRepository.dll
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.IRepository\bin\Debug\netcoreapp3.1\AspDotNetGo.IRepository.pdb
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.IRepository\obj\Debug\netcoreapp3.1\AspDotNetGo.IRepository.csproj.AssemblyReference.cache
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.IRepository\obj\Debug\netcoreapp3.1\AspDotNetGo.IRepository.AssemblyInfoInputs.cache
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.IRepository\obj\Debug\netcoreapp3.1\AspDotNetGo.IRepository.AssemblyInfo.cs
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.IRepository\obj\Debug\netcoreapp3.1\AspDotNetGo.IRepository.csproj.CoreCompileInputs.cache
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.IRepository\obj\Debug\netcoreapp3.1\AspDotNetGo.IRepository.dll
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.IRepository\obj\Debug\netcoreapp3.1\AspDotNetGo.IRepository.pdb

@@ -1,0 +1,9 @@
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Models\bin\Debug\netcoreapp3.1\AspDotNetGo.Models.deps.json
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Models\bin\Debug\netcoreapp3.1\AspDotNetGo.Models.dll
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Models\bin\Debug\netcoreapp3.1\AspDotNetGo.Models.pdb
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Models\obj\Debug\netcoreapp3.1\AspDotNetGo.Models.csproj.AssemblyReference.cache
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Models\obj\Debug\netcoreapp3.1\AspDotNetGo.Models.AssemblyInfoInputs.cache
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Models\obj\Debug\netcoreapp3.1\AspDotNetGo.Models.AssemblyInfo.cs
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Models\obj\Debug\netcoreapp3.1\AspDotNetGo.Models.csproj.CoreCompileInputs.cache
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Models\obj\Debug\netcoreapp3.1\AspDotNetGo.Models.dll
+E:\OSC\source\repos\AspDotNetGo\AspDotNetGo.Models\obj\Debug\netcoreapp3.1\AspDotNetGo.Models.pdb
